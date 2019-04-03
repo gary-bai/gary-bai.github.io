@@ -1,0 +1,220 @@
+<!-- vim: set ts=2:sw=2:et:-->
+
+<html>
+  <head>
+    <title>Gary Bai</title>
+    <meta charset="utf-8"/>
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <h1>简历</h1>  
+    <h2>基本信息</h2>
+    <ul>
+      <li>
+Gary Bai，男
+      </li>
+      <li>
+2012年北京林业大学金融学毕业，管理学硕士
+      </li>
+      <li>
+2009年北京林业大学金融学毕业，管理学学士
+      </li>
+      <li>
+大学英语四级577分
+      </li>
+      <li>
+大学英语六级538分
+      </li>
+      <li>
+Red Hat Certified Engineer
+      </li>
+      <li>
+邮箱：gary.bai@hotmail.com
+      </li>
+      <li>
+手机：135 8188 3098
+      </li>
+    </ul>
+
+    <h2>任职资格</h2>
+    <ul>
+      <li>
+手工写过递归下降Parser和运算符优先级Parser，用过Flex和Bison.
+      </li>
+      <li>
+对编程语言很感兴趣，喜欢研究各种语言特性，实现其解释器。
+      </li>
+      <li>
+深入学习过Scheme，Ocaml等函数式语言，学习过lambda calculus.
+      </li>
+      <li>
+用Guile实现过编译器，把Scheme语言核心子集编译成x86-64汇编代码，用C语言实现了Runtime System，以及用GNU汇编器、链接器将它们汇编链接生成最后的可执行程序。
+      </li>
+    </ul>
+
+    <h2>工作经历</h2>
+    <h3>
+2018年至今，资深软件工程师（1年），<a href="http://www.hxt-semitech.com/">HXT</a>（华芯通半导体技术有限公司）
+    </h3>
+    <ul>
+      <li>
+公司变故导致我工作年限短，特此说明。
+      </li>
+      <li>
+Enable华芯通ARMv8处理器和平台：开发Linux内核驱动，移植固件和Linux发行版。
+      </li>
+      <li>
+为公司搭建一套RPM打包环境--Koji集群，所有服务都部署在docker容器。
+      </li>
+      <li>
+为公司搭建一套CI环境，实现Linux内核和其他软件的夜构建。
+      </li>
+    </ul>
+
+    <h3>
+2015年-2018年，软件工程师（3年），<a href="http://www.gbase.cn/">GBASE</a>（南大通用数据技术股份有限公司）
+    </h3>
+    <ul>
+      <li>
+该公司获得<a href="https://www.ibm.com/analytics/informix">IBM Informix</a>源代码授权，在Informix源码基础上，开发自己的OLTP数据库：<a href="http://www.gbase.cn/product_center8t.html">GBase 8t</a>
+      </li>
+      <li>
+工作是开发维护GBase 8t产品，平台相关代码主要承担linux(x86_64, arm, aarch64)部分，平台无关代码主要承担8t内核中线程管理、关系存储和SQL，以及一些用户空间程序。从第三年起，负责8t高可用SDS集群和连接管理器CM的代码维护。
+      </li>
+      <li>
+主要是在linux平台下开发、维护C程序和Java程序。
+      </li>
+      <li>
+在Informix基础上给8t开发的一些新功能，如支持一些其他数据库特有的SQL（给新增的语法写Parser并实现其语义），增加一些数据库的内置函数，编写一些数据库外围的用户程序如导出工具等。修复一些Informix原有的Bug，如死锁，内存泄露等问题。
+      </li>
+      <li>
+在Informix原有工程构建的基础上，增加对交叉编译的支持，成功构建出arm/aarch64嵌入式设备上运行的8t产品，而且裁剪掉不必要的组件。
+      </li>
+      <li>
+研究Informix代码，主要是围绕自己所负责的子模块，撰写一些技术文档，绘制思维导图、时序图，和其他同事分享。
+      </li>
+    </ul>
+
+    <h3>
+2012年-2015年，软件工程师（3年），<a href="http://www.redhat.com">Red Hat</a>（红帽软件-北京研发中心）
+    </h3>
+    <ul>
+      <li>
+开发维护硬件认证程序，项目是开源的：<br/><a href="http://git.fedorahosted.org/cgit/v7.git">http://git.fedorahosted.org/cgit/v7.git</a>
+      </li>
+      <li>
+主要是C语言和Python语言写的，还有少量的Bash
+      </li>
+      <li>
+硬件厂商运行它，检测其计算机或板卡在RHEL系统的可用性，从而取得RHEL系统认证。其中的所有代码都是直接或间接针对各种硬件的常规测试和新特性测试。比如CPU变频、虚拟化支持；内存的压力测试：存储的压力测试(顺序或随机I/O, 缓冲或非缓冲I/O), USB和其他扩展卡的热插拔测试；电源管理等。
+      </li>
+      <li>
+日常工作包括研究开发新特性，比如SRIOV，UEFI等；帮助硬件厂商调查反馈的问题，汇报与Bug修复。
+      </li>
+      <li>
+该项目的其他开发者在国外，用Git管理，代码提交必须有其他人审核, 最后并入仓库。
+      </li>
+    </ul>
+
+    <h3>
+2011年，测试工程师（1年），<a href="http://www.redhat.com">Red Hat</a>（红帽软件-北京研发中心）
+    </h3>
+
+    <ul>
+      <li>
+担任Linux内核测试工程师, 产品是红帽企业版Linux(RHEL5, RHEL6, RHEL7)。
+      </li>
+      <li>
+测试Linux内核的kexec, ftrace, kprobe子系统，及相关的用户空间程序kdump, crash-utility, trace-cmd, Systemtap, perf.
+      </li>
+      <li>
+工作主要有撰写测试计划，设计测试用例，编写自动化测试程序(Bash/Perl/Python)，执行测试, 汇报软件缺陷(Bug)，验证代码补丁。
+      </li>
+    </ul>
+
+    <h2>学习经历</h2>
+    <h3>
+Linux内核和发行版
+    </h3>
+    <p>
+大学时偶然接触到Solaris，从此对操作系统非常感兴趣。找来《操作系统概念》(英文版)，书很厚, 没全读完。个人电脑上开始使用Fedora，学习linux命令，Bash，Vim，用GNU cc, binutils, git开发程序。为了弄明白linux内核的工作原理, 我完整读过linux-0.11版本的内核源代码(包括驱动，有两本学习笔记)，在这个过程中，又学习了i386的保护模式和AT&T格式的汇编，参考了很多书籍和Intel的芯片手册。
+    </p>
+    <p>
+在Red Hat工作期间，学习linux-2.6.32代码，除了工作相关部分：tracepoint, perf等，看了一些很基础的代码：同步机制，各种锁，中断处理，softirq, tasklet等。
+    </p>
+    <p>
+参加过北京亚嵌教育研究中心的培训《ARM嵌入式linux》, 有中级资格证。 在FriendlyARM开发板, 三星S5PV210的SoC, ARM CortexA8核心, 编写过GPIO驱动。
+    </p>
+    <p>
+我非常喜欢linux系统，从大学到现在，一直用linux系统工作和学习，对其上的很多软件都有很深的使用经历。随着时间推移，我用过很多linux发行版：Fedora, Red Hat Enterprise Linux, CentOS, Debian, Ubuntu, Slackwre, Manjaro. 用过很多桌面环境，Gnome, KDE, Xfce, Cinnamon到现在的窗口管理器FVWM, i3wm.
+    </p>
+
+    <h3>
+编程语言
+    </h3>
+我对编程语言很感兴趣，探求过很多语言特性，编写过解释器实现基本的语言特性，实现过编译器后端。在理论方面，我学习过lambda calculus，看过EOPL，还有一些PL的论文。在我的职业生涯里，我学过、使用过很多编程语言：
+    <p>
+我最喜欢Scheme语言，因为它的S-Expression漂亮而且容易解析；因为它是函数式编程语言，支持闭包，看过：
+      <ul>
+        <li>
+《Structure and Interpretation of Computer Programs》
+        </li>
+      </ul>
+    </p>
+
+    <p>
+C语言的经历最多，单说linux内核就把C用到极致了，所以我对C语言有过深入的学习：
+      <ul>
+        <li>
+《The C Programming Language》, K&R,（英文版）
+        </li>
+        <li>
+《C陷阱与缺陷》, Andrew Koenig（中文版）
+        </li>
+        <li>
+《C专家编程》, Peter Van Der Linden（中文版）
+        </li>
+      </ul>
+    </p>
+
+    <p>
+C++工作中用的不多，现在正在学习C++11，系统学习过C++98的核心特性：
+      <ul>
+        <li>
+《Thinking in C++》, Bruce Eckel, 第一卷中文版
+        </li>
+      </ul>
+    </p>
+
+    <p>
+Java我很喜欢，日常学习和用Eclipse开发应用程序，我用的次多，系统看过：
+      <ul>
+        <li>
+《Thinking in Java》, Bruce Eckel，中文版
+        </li>
+      </ul>
+    </p>
+
+    <p>
+Bash, Perl, Python, Expect在工作写自动化测试，日常维护用的比较多。
+    </p>
+
+    <h2>其他</h2>
+    <ul>
+      <li>
+通过RHCE(Red Hat Certified Engineer), 红帽认证工程师
+      </li>
+      <li>
+参加思科网络工程师(CCNA)培训，北京邮电大学思科网络学院
+      </li>
+      <li>
+我的英语很好，经常阅读英文资料，参与开源社区。
+      </li>
+      <li>
+有协作精神，责任心强，做事严谨。
+      </li>
+    </ul>
+  </body>
+</html>

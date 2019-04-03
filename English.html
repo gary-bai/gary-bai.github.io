@@ -1,0 +1,208 @@
+<!-- vim: set ts=2:sw=2:et:-->
+
+<html>
+  <head>
+    <title>RESUME: Gary Bai</title>
+    <meta charset="utf-8"/>
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <h1>RESUME</h1>  
+    <h2>Gary Bai</h2>
+    <ul>
+      <li>
+Master Degree in Finance, Beijing Forestry University, 2012
+      </li>
+      <li>
+Bachelor Degree in Finance, Beijing Forestry University, 2009
+      </li>
+      <li>
+College English Test 4: score 577
+      </li>
+      <li>
+College English Test 6: score 538
+      </li>
+      <li>
+Red Hat Certified Engineer
+      </li>
+      <li>
+Email: gary.bai@hotmail.com
+      </li>
+      <li>
+Cellphone: 135 8188 3098
+      </li>
+    </ul>
+
+    <h2>Qualification Highlights</h2>
+    <ul>
+      <li>
+Ever written Recursive Descent Parser and Operator Precedence Parser, have basic knowledge with Flex and Bison.
+      </li>
+      <li>
+Very interested in Programming Languages, I enjoy writing interpreters implementing various language features.
+      </li>
+      <li>
+With knowledge in lambda calculus, I'm expert in functional programming in Scheme and OCaml.
+      </li>
+      <li>
+I've ever developed a compiler in Guile and a simple runtime system in C. The compiler translates the core subset of Scheme into x86-64 assembly which is fed to GNU as and then GNU ld with the runtime code to generate executable program.
+      </li>
+    </ul>
+
+    <h2>Employment</h2>
+    <h3>
+2018-Current, Staff Software Engineer, 1 Year, <a href="http://www.hxt-semit
+ech.com/">HXT Semiconductor Technology</a>
+    </h3>
+    <ul>
+      <li>
+Work time short due to the sudden change of the company.
+      </li>
+      <li>
+Enable HXT ARMv8 based processor and platforms on writing Linux device driver, porting firmware and Linux distribution.
+      </li>
+      <li>
+Set up a RPM build cluster with Koji deployed as docker containers within company.
+      </li>
+      <li>
+Set up a CI cluster with Jenkins deployed as docker containers within company for nightly build of Linux kernel and other software.
+      </li>
+    </ul>
+
+    <h3>
+2015-2018, Software Engineer, 3 Years, <a href="http://www.gbase.cn/">GBASE</a>
+    </h3>
+    <ul>
+      <li>
+With the agreement that IBM shares <a href="https://www.ibm.com/analytics/informix">Informix</a> code with GBASE, this company is developing a new OLTP DBMS <a href="http://www.gbase.cn/product_center8t.html">GBase 8t</a> based on the Informix code.
+      </li>
+      <li>
+Responsible for the partial development of GBase 8t kernel, with architecture related code focusing on x86_64/arm/aarch64 and the unrelated part on thread management, RSAM, SQL and some userspace tools. In the last year of employment, I start to maintain the
+SDS cluster and Connection Manager code pieces within High Availability group.
+      </li>
+      <li>
+Most of my work done on Linux operating system with C and few Java programs.
+      </li>
+      <li>
+All projects involved based on the Informix source code, the typical ones I took like writing parsers for introducing some Oracle SQL grammar and implementing its semantics, adding new builtin functions to Informix SQL, writing supplementary userspace tools which interacts with the database server for some administration tasks. Also I fixed several bugs found with original Informix code such as deadlock, memleak etc.
+      </li>
+      <li>
+In addition to the original Informix building method, I succeeded in cross-compiling the entire GBase 8t for the arm/aarch64 single board computers. Also, we refined the boundaries of various components to enable pruning unneeded functions.
+      </li>
+      <li>
+At end of each project, we will deliver technical notes, mind map or sequence diagram in the study of relevent Informix code and share on team talks.
+      </li>
+    </ul>
+
+    <h3>
+2012-2015, Software Engineer, 3 Years, <a href="http://www.redhat.com">Red Hat</a> (Beijing)
+    </h3>
+    <ul>
+      <li>
+Development of Red Hat Hardware Certification Program V7, open sourced at <a href="http://git.fedorahosted.org/cgit/v7.git">http://git.fedorahosted.org/cgit/v7.git</a>
+      </li>
+      <li>
+Mostly written in C and Python programming language.
+      </li>
+      <li>
+Computer Vendors run it on their new model machines to certify the functions of various pieces of hardware with Red Hat Enterprise Linux. The program is essentially made of different test cases against all kinds of hardware pieces directly or indirectly, covering basic function and specific feature. Typically, CPU Frequency Scaling, Hardware Virtualization suppport of central processor; Stressing test, Benchmarking test for memory and storage, Hot-Plug/Unplug for USB devices, Power Management specially for PCs and laptops.
+      </li>
+      <li>
+Routine work involves feature study, e.g. SR-IOV, UEFI, help vendors with their problem in their certifications, as well as bug fixes.
+      </li>
+      <li>
+Our team distributed globally, we use Git for source management and require peer review for each submission to repository.
+      </li>
+    </ul>
+
+    <h3>
+2011, Quality Assurance, 1 Year, <a href="http://www.redhat.com">Red Hat</a> (Beijing)
+    </h3>
+
+    <ul>
+      <li>
+Quality Assurance of the Linux kernel in Red Hat Enterprise Linux 5, 6 and 7.
+      </li>
+      <li>
+Responsible for following subsystems of the Linux kernel: kexec, ftrace, kprobe, and the corresponding userspace tools: kdump, crash-utility, trace-cmd, Systemtap, perf.
+      </li>
+      <li>
+Routine work including writing testplan, designing testcases, scripting testcases(Bash/Perl/Python), running test, reporting bugs and verifying patches.
+      </li>
+    </ul>
+
+    <h2>Education Experiences</h2>
+    <h3>
+The Linux Kernel and Distros
+    </h3>
+    <p>
+My interest in operating system starts from one Solaris experience in college. Later on, while reading the book 《Operating System Concepts》, I learned Linux commands, Bash, Vim, Git, programming with GNU compiler, binutils on Fedora. For figuring out how the Linux kernel works, I turned to study the entire Linux-0.11 source. Though tough at the beginning, I got clear on it including drivers after the study of intel i386 protect mode and AT&T assembly language.
+    </p>
+    <p>
+At Red Hat, my work is on Linux-2.6.32, and I spent spare time on the very infrastructural part such as concurrent and parallelism, locks, softirq, tasklet in addition to the daily work.
+    </p>
+    <p>
+I had a professional training "Linux on ARM" for months, where I learned writing Linux drivers for GPIO, UART targeted for a samsung S5PV210 SoC, Cortex-A8 core.
+    </p>
+    <p>
+I love Linux and have been playing with it for work and study since in college, familiar with many open source softwares on it. Having experiences with following distros over time: Fedora, Red Hat Enterprise Linux, CentOS, Debian, Ubuntu, Slackwre, Manjaro, and from different desktop environments: Gnome, KDE, Xfce, Cinnamon to window managers: FVWM, i3wm.
+    </p>
+
+    <h3>
+Programming Languages
+    </h3>
+    <p>
+Very interested in Programming Language, I've ever learned various language features and implemented them by writing interpreters and a compiler backend. In theory, I have ever studied lambda calculus, EOPL book and some PL papers.
+    </p>
+
+    <p>
+Since in college, I've programmed in many programming languages, deep background at C for at least 10 years, and had a deep learning from following books after many tough experiences:
+      <ul>
+        <li>
+《The C Programming Language》, K&R
+        </li>
+        <li>
+《C Traps and Pitfalls》, Andrew Koenig
+        </li>
+        <li>
+《Expert C Programming》, Peter Van Der Linden
+        </li>
+      </ul>
+    </p>
+
+    <p>
+I like Scheme best for its pretty and easy-to-parse syntax and its functional features such as closure, higher order function by the following:
+      <ul>
+        <li>
+《Structure and Interpretation of Computer Programs》
+        </li>
+      </ul>
+    </p>
+
+    <p>
+Very good at Java, Python, and Bash after years of working with them. Average on Perl, Expect.
+    </p>
+
+    <p>
+Though my few projects in C++, I have ever fully learned the features from C++98 standard and still keep studying C++11 ones.
+    </p>
+
+    <h2>Miscellaneous</h2>
+    <ul>
+      <li>
+Red Hat Certified Engineer of RHEL6
+      </li>
+      <li>
+CCNA course as professional development, but not taking the final exam for certification.
+      </li>
+      <li>
+My English is on the way and always in touch with open source community.
+      </li>
+      <li>
+I'm collaborative, serious, and self disciplined.
+      </li>
+    </ul>
+  </body>
+</html>
